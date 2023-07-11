@@ -2,13 +2,16 @@ package e2e;
 
 import api.address.Address;
 import api.contact.Contact;
-import com.google.gson.JsonObject;
 import io.restassured.path.json.JsonPath;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class UserCanWorkWithAddressInNewContact {
 
@@ -48,6 +51,27 @@ public class UserCanWorkWithAddressInNewContact {
                 "        \"contactId\": "+contactId+"\n" +
                 "    }";
         JSONAssert.assertEquals(actualJson, expectedJson, JSONCompareMode.STRICT);
+
+        int id = addressId;
+        address.editAddress(200, id, contactId);
+        JsonPath editedAddress = address.getAddress(200, id).jsonPath();
+        LinkedHashMap<String, String> objectEditedAddress = new LinkedHashMap<>();
+        objectEditedAddress.put(editedAddress.getString("city"), address.dataForEditAddress(id, contactId).getCity());
+        objectEditedAddress.put(editedAddress.getString("country"), address.dataForEditAddress(id, contactId).getCountry());
+        objectEditedAddress.put(editedAddress.getString("street"), address.dataForEditAddress(id, contactId).getStreet());
+        objectEditedAddress.put(editedAddress.getString("zip"), address.dataForEditAddress(id, contactId).getZip());
+
+
+        for (Map.Entry<String, String> object : objectEditedAddress.entrySet()) {
+            String actualResult = object.getKey();
+            String expectedResult = object.getValue();
+            Assert.assertEquals(actualResult, expectedResult, actualResult + "not equal" + expectedResult);
+        }
+
+
+        address.deleteAddress(200, id);
+        JsonPath actualDeleteAddress = address.getAddress(500, id).jsonPath();
+        Assert.assertEquals(actualDeleteAddress.getString("message"), "Error! This address doesn't exist in our DB");
 
     }
 

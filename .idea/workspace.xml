@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996645d6-44d4-4db8-b01c-10cdb987cdf3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/address/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java" afterDir="false" />
+    <list default="true" id="996645d6-44d4-4db8-b01c-10cdb987cdf3" name="Changes" comment="Desribed test for test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/email/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/CreatContactViaApiEditContactViaUiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/ContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/PageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Languages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/Wait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/e2e/UserCanCreateEditDeleteContactViaApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/UserCanCreateEditDeleteContactViaApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,29 +59,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="520c38e1-d665-42fa-ae1e-6e055151eacf" />
+        <option name="url" value="https://github.com/Irasp11/clone" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2RFcinJtjugmbocJrfRXxJZr6A6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/arturandreasian/Desktop/Study Te- Ran/clone",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/arturandreasian/Desktop/Study Te- Ran/clone/src/test/java/api/ui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.UserCanWorkWithAddressInNewContact.userCanWorkWithAddressInNewContact">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/api/ui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="e2e.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UserCanWorkWithEmailInNewContact.userCanWorkWithEmailInNewContact">
     <configuration name="UserCanCreateEditDeleteContactViaApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="phoneBook53-58-1222-e-qa.test" />
       <extension name="coverage">
@@ -83,24 +117,6 @@
       <option name="PACKAGE_NAME" value="e2e" />
       <option name="MAIN_CLASS_NAME" value="e2e.UserCanCreateEditDeleteContactViaApiTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserCanCreateEditDeleteContactViaApiTest.userCanCreateEditDeleteContactViaApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="phoneBook53-58-1222-e-qa.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e2e.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="e2e" />
-      <option name="MAIN_CLASS_NAME" value="e2e.UserCanCreateEditDeleteContactViaApiTest" />
-      <option name="METHOD_NAME" value="userCanCreateEditDeleteContactViaApiTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,12 +158,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserCanWorkWithEmailInNewContact" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="phoneBook53-58-1222-e-qa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e2e.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e2e" />
+      <option name="MAIN_CLASS_NAME" value="e2e.UserCanWorkWithEmailInNewContact" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCanWorkWithEmailInNewContact.userCanWorkWithEmailInNewContact" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="phoneBook53-58-1222-e-qa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e2e.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e2e" />
+      <option name="MAIN_CLASS_NAME" value="e2e.UserCanWorkWithEmailInNewContact" />
+      <option name="METHOD_NAME" value="userCanWorkWithEmailInNewContact" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserCanWorkWithEmailInNewContact.userCanWorkWithEmailInNewContact" />
+        <item itemvalue="TestNG.UserCanWorkWithEmailInNewContact" />
         <item itemvalue="TestNG.UserCanWorkWithAddressInNewContact.userCanWorkWithAddressInNewContact" />
         <item itemvalue="TestNG.UserCanWorkWithAddressInNewContact" />
         <item itemvalue="TestNG.UserCanCreateEditDeleteContactViaApiTest" />
-        <item itemvalue="TestNG.UserCanCreateEditDeleteContactViaApiTest.userCanCreateEditDeleteContactViaApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,30 +213,83 @@
       <updated>1686849398577</updated>
       <workItem from="1687292834934" duration="208000" />
       <workItem from="1687293227890" duration="10000" />
-      <workItem from="1687453424329" duration="9281000" />
+      <workItem from="1687453424329" duration="9702000" />
+      <workItem from="1687634663247" duration="2821000" />
+      <workItem from="1687885091398" duration="281000" />
+      <workItem from="1687885857939" duration="2624000" />
+      <workItem from="1687888902745" duration="7669000" />
+      <workItem from="1687982389400" duration="2903000" />
+      <workItem from="1687985363904" duration="1423000" />
+      <workItem from="1687986795190" duration="354000" />
+      <workItem from="1687987156326" duration="10914000" />
+      <workItem from="1688069173016" duration="58000" />
+      <workItem from="1688490089331" duration="1554000" />
+      <workItem from="1688491978917" duration="49000" />
+      <workItem from="1688493095942" duration="678000" />
+      <workItem from="1688495732496" duration="2027000" />
+      <workItem from="1688567353884" duration="334000" />
+      <workItem from="1688568376463" duration="92000" />
+      <workItem from="1688929739180" duration="1351000" />
+      <workItem from="1688993767486" duration="2809000" />
+      <workItem from="1688996782511" duration="1391000" />
     </task>
+    <task id="LOCAL-00001" summary="Desribed test for test">
+      <option name="closed" value="true" />
+      <created>1687464635080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687464635082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Desribed test for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desribed test for test" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
+          <line>45</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
+          <line>46</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
