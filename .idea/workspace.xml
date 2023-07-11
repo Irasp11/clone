@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996645d6-44d4-4db8-b01c-10cdb987cdf3" name="Changes" comment="Desribed test for test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/email/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/CreatContactViaApiEditContactViaUiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/PageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Languages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/Wait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="996645d6-44d4-4db8-b01c-10cdb987cdf3" name="Changes" comment="Desribed test for test API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/UserCanCreateEditDeleteContactViaApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/UserCanCreateEditDeleteContactViaApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithAddressInNewContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +44,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -87,7 +79,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Irasp__Andreasian__LogBack&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/arturandreasian/Desktop/Study Te- Ran/clone/src/test/java/api/ui&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -231,7 +223,8 @@
       <workItem from="1688568376463" duration="92000" />
       <workItem from="1688929739180" duration="1351000" />
       <workItem from="1688993767486" duration="2809000" />
-      <workItem from="1688996782511" duration="1391000" />
+      <workItem from="1688996782511" duration="6129000" />
+      <workItem from="1689100112413" duration="1110000" />
     </task>
     <task id="LOCAL-00001" summary="Desribed test for test">
       <option name="closed" value="true" />
@@ -241,13 +234,44 @@
       <option name="project" value="LOCAL" />
       <updated>1687464635082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Desribed test for test API">
+      <option name="closed" value="true" />
+      <created>1689098793571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689098793572</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Desribed test for test API">
+      <option name="closed" value="true" />
+      <created>1689098846613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689098846613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -258,6 +282,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -266,33 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Desribed test for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desribed test for test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/e2e/UserCanWorkWithEmailInNewContact.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Desribed test for test API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desribed test for test API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
