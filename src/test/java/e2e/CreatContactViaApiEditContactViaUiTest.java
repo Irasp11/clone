@@ -18,7 +18,7 @@ public class CreatContactViaApiEditContactViaUiTest extends TestBase {
         JsonPath createdContact = contact.createContact(201).jsonPath();
         int id = createdContact.getInt("id");
         logger.info(String.valueOf(id));
-//        logger.info(String.valueOf());  еще один после boolean когда допишу код
+//        logger.info(String.valueOf(visibleStatus));  еще один после boolean когда допишу код
 
         loginPage = new LoginPage(app.driver);
         loginPage.waitForLoading();
